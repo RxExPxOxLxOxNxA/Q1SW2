@@ -1,0 +1,89 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(https://obmontessori.orangeapps.ph/landing/obmontessori/images/fairview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container1 {
+    text-align: center;
+    background-color: #153f4f;
+    padding: 25px;
+    color: white;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.3);
+    border-bottom: 5px solid #153f4fb3;
+    position: fixed;
+    width: 100%;
+   
+}
+
+.container2 {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 380px;
+    padding: 25px;
+    margin: 60px auto;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+    margin-top: 100px;
+}
+
+input[type="text"], input[type="number"], select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, select:focus, textarea:focus {
+    border-color: #1c4d86;
+    outline: none;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #153f4f;
+    display: block;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+#submit { 
+    background-color: #2d56a7;
+    color: white;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+#submit:hover {
+    background-color: #2d56a7;
+}
+
+textarea {
+    resize: none;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 32px;
+    color: #1094db;
+    margin: 0;
+    font-weight: bold;
+}
